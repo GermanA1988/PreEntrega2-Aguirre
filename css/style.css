@@ -41,7 +41,10 @@ h1 {
 }
 
 .center {
-    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: end; 
+    margin-right: 100px;
 }
 
 .containerImg {
