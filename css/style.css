@@ -103,8 +103,12 @@ footer {
     display: none;
   }
   .sectionText {
-    padding-left: 35px;
+    padding-left: 0px;
     margin-top: 40px;
-    margin-right: 0px;
+    margin-right: 0px; 
+    overflow: hidden;
   }
+    .Space {
+      margin-top: 40px;
+    }
 }
