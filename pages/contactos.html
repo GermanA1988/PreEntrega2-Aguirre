@@ -45,23 +45,37 @@
 
     <section>
         <!--inicion de formulario-->
-        <form action="" method="post" class="p-3 center">
-            <!--inputs-->
-            <input type="text" placeholder="Nombre y Apellido">
-            <br>
-            <input type="email" placeholder="e-mail">
-            <br>
-            <input type="tel" placeholder="Telefono">
-            <br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Tu consulta aqúi"></textarea>
-            <br>
-
-            <!--botones-->
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Resetear">
-            <p>Deseo recibir novedades por e-mail</p>
-            <input type="checkbox" name="acepta" value="1">
-        </form>
+        <form class="row m-2">
+            <div class="form-group col-sm-5 p-2">
+                <label for="formGroupExampleInput ">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+              </div>
+              <div class="form-group col-sm-5 p-2">
+                <label for="formGroupExampleInput2">Apellido</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
+              </div>
+              <div class="form-group col-sm-5 p-2">
+                <label for="formGroupExampleInput2">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+              </div>
+              <div class="form-group col-sm-5 p-2">
+                <label for="formGroupExampleInput2">Teléfono</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Teléfono">
+              </div>
+              <div class="form-group col-sm-5 p-2">
+                <label for="exampleFormControlTextarea1">Escriba tu consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class=" form-group col-sm-12 p-2">
+                  <button type="submit" class="btn btn-primary mb-2 ">Enviar</button>
+                  <button type="reset" class="btn btn-primary mb-2 ">Reset</button>
+              </div>
+              <div class="form-check form-check-inline m-2">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">                  Deseo recibir novedades por email.
+                </label>
+              </div>
+          </form>
     </section>
 
     <section>
